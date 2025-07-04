@@ -18,7 +18,8 @@ The model and the vectorizer are saved locally using joblib. They are then loade
 
 # How to run
 Download both the transfer.py and app.py scripts.\
-Run the transfer.py script.
+Make sure all the required python libraries are installed.\
+Run the ensemble.py script.
 ```
 python ensemble.py
 ```
