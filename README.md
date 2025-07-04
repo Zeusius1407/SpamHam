@@ -15,7 +15,14 @@ Finally the accuracy of the model is evaluated using the test set.
 
 # Deployment
 The model and the vectorizer are saved locally using joblib. They are then loaded in the app.py script and are used to classify a user-input message/email as spam or ham.\
-To run the script use the following command in the terminal:
+
+# How to run
+Download both the transfer.py and app.py scripts.\
+Run the transfer.py script.
+```
+python transfer.py
+```
+To run the app.py script use the following command in the terminal:
 ```
 streamlit run app.py
 ```
