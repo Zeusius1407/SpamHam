@@ -1,7 +1,6 @@
 import streamlit as st
 import joblib
 
-# Load the model and vectorizer
 model = joblib.load('spam_classifier.pkl')
 vectorizer = joblib.load('tfidf_vectorizer.pkl')
 
